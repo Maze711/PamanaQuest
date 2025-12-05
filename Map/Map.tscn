@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://mlobkmmqc0d4"]
+[gd_scene load_steps=7 format=3 uid="uid://mlobkmmqc0d4"]
 
 [ext_resource type="Texture2D" uid="uid://cehsc7twvxjug" path="res://Map/GrassBg.png" id="1_7s3fs"]
+[ext_resource type="Script" path="res://Map/map.gd" id="1_khrkh"]
 [ext_resource type="Texture2D" uid="uid://b5icts7lyrpth" path="res://Map/House.png" id="2_2623n"]
 [ext_resource type="PackedScene" uid="uid://cce42penvj6xm" path="res://PlayerMovement/Player.tscn" id="3_2623n"]
 
@@ -11,6 +12,7 @@ size = Vector2(176, 152)
 radius = 20.0
 
 [node name="Map" type="Node2D"]
+script = ExtResource("1_khrkh")
 
 [node name="Background" type="TextureRect" parent="."]
 offset_right = 960.0

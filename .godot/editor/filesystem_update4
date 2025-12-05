@@ -1,3 +1,6 @@
 res://PlayerMovement/Player.tscn
 res://PlayerMovement/Player.gd
 res://Map/Map.tscn
+res://Transition/FadeTransition.tscn
+res://Transition/fade_transition.gd
+res://Map/map.gd
