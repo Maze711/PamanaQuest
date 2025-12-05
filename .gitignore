@@ -1,0 +1,5 @@
+# Godot default
+.export/
+.import/
+*.mono
+*.imported

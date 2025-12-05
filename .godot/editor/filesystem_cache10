@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1764914299
+icon.svg::CompressedTexture2D/CompressedTexture2D::3554307567423161752::1758890638::1758890650::1::::<><><>0<>0<>c5b5855dd244816e0f0add4d5d3f64b8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Map/::1764753966
+GrassBg.png::CompressedTexture2D/CompressedTexture2D::5069145574801402202::1758891808::1758891810::1::::<><><>0<>0<>281cd27b2b76b56d94646e1ef955aa4d<>res://.godot/imported/GrassBg.png-8451361274359f08eae3f8261ddd5343.ctex::
+House.png::CompressedTexture2D/CompressedTexture2D::4508757374322868529::1758891690::1758891690::1::::<><><>0<>0<>fa543b091b141644d13b37a644d48f50<>res://.godot/imported/House.png-06a559d0247e5af4c4868eb8ad47df49.ctex::
+Map.tscn::PackedScene::865826646981550071::1764753966::0::1::::<><><>0<>0<><>::uid://cehsc7twvxjug::::res://Map/GrassBg.png<>uid://b5icts7lyrpth::::res://Map/House.png<>uid://cce42penvj6xm::::res://PlayerMovement/Player.tscn
+::res://PlayerMovement/::1764753966
+Player.gd::GDScript::4975322112071534056::1764753964::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player.tscn::PackedScene::4923286369552749390::1764753966::0::1::::<><><>0<>0<><>::uid://cc5c3fq2jfcf5::::res://PlayerMovement/Player.gd<>uid://b5ifpu2aq3ilj::::res://PlayerMovement/walk-back.png<>uid://cn5kc577p06vw::::res://PlayerMovement/walk-front.png
+walk-back.png::CompressedTexture2D/CompressedTexture2D::4508932478938170175::1764751656::1764753328::1::::<><><>0<>0<>0bb89bcb21d524a51b2de5defeb32ad5<>res://.godot/imported/walk-back.png-1888f362bdb8a44cccb8910234e46f5b.ctex::
+walk-front.png::CompressedTexture2D/CompressedTexture2D::5747840035427134228::1764751656::1764753328::1::::<><><>0<>0<>6d0dc1419aac8dca5b1f2f9bf96f8ddb<>res://.godot/imported/walk-front.png-2a7c6c90f3290bf9d51598ec96d8928a.ctex::

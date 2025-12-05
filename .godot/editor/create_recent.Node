@@ -1,0 +1,7 @@
+AnimatedSprite2D
+CollisionShape2D
+CanvasLayer
+StaticBody2D
+TextureRect
+Sprite2D
+ColorRect
