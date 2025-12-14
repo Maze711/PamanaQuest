@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://doyx8abaw11s5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q0b6k"]
+bg_color = Color(0.698, 0.698, 0.698, 0.935)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 1)
+
+[node name="DialogContainer" type="Panel"]
+anchors_preset = -1
+anchor_left = 0.1
+anchor_top = 0.8
+anchor_right = 0.9
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_q0b6k")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+autowrap_mode = 2

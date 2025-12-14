@@ -11,13 +11,18 @@ config_version=5
 [application]
 
 config/name="Map"
-run/main_scene="res://Map/Map.tscn"
+run/main_scene="res://NPCInteraction/LolaNena/Opening.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
 Transition="*res://Transition/FadeTransition.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [input]
 

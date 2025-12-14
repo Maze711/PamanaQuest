@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://bnve2oq5eh768"]
+
+[ext_resource type="Script" path="res://NPCInteraction/LolaNena/opening.gd" id="1_wi7id"]
+[ext_resource type="PackedScene" uid="uid://doyx8abaw11s5" path="res://NPCInteraction/DialogContainer.tscn" id="2_wbo2x"]
+[ext_resource type="Texture2D" uid="uid://b5nmdlwcyj0oe" path="res://NPCInteraction/LolaNena/Main.jpg" id="3_dfqns"]
+[ext_resource type="Texture2D" uid="uid://dv7pia63g4qr2" path="res://NPCInteraction/LolaNena/Lola.jpg" id="4_lfaas"]
+
+[node name="Opening" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wi7id")
+
+[node name="MainCharacter" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -536.0
+offset_right = 602.0
+grow_vertical = 0
+texture = ExtResource("3_dfqns")
+
+[node name="NPC" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -540.0
+offset_top = -522.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("4_lfaas")
+
+[node name="DialogContainer" parent="." instance=ExtResource("2_wbo2x")]
+layout_mode = 1

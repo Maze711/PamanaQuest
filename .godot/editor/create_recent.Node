@@ -1,8 +1,14 @@
+TextureRect
+Control
+Node2D
+Label
+Panel
+TileMapLayer
+TileMap
 AnimationPlayer
 ColorRect
 CanvasLayer
 AnimatedSprite2D
 CollisionShape2D
 StaticBody2D
-TextureRect
 Sprite2D

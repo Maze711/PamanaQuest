@@ -1,6 +1,3 @@
-res://PlayerMovement/Player.tscn
-res://PlayerMovement/Player.gd
-res://Map/Map.tscn
-res://Transition/FadeTransition.tscn
+res://NPCInteraction/LolaNena/Opening.tscn
 res://Transition/fade_transition.gd
-res://Map/map.gd
+res://NPCInteraction/DialogContainer.tscn

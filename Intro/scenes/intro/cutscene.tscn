@@ -1,0 +1,80 @@
+[gd_scene load_steps=5 format=3 uid="uid://cpkkaigmda80i"]
+
+[ext_resource type="Script" path="res://Intro/scenes/intro/cutscene.gd" id="1_v2ic1"]
+[ext_resource type="FontFile" uid="uid://bgkju7x76e2c0" path="res://font/DeterminationMonoWebRegular-Z5oq.ttf" id="3_8dymb"]
+[ext_resource type="AudioStream" uid="uid://tjuykpllngva" path="res://Intro/sounds/msc_story/intro.ogg" id="4_y8f3f"]
+[ext_resource type="Texture2D" uid="uid://bwkmhd04x3t3i" path="res://Intro/images/logo/pamana_quest.png" id="5_hl2da"]
+
+[node name="Cutscene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_v2ic1")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 2
+stretch_mode = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.181
+anchor_top = 0.65
+anchor_right = 0.823
+anchor_bottom = 0.931
+offset_left = 0.159996
+offset_top = -3.05176e-05
+offset_right = 0.279968
+offset_bottom = 0.119965
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/normal_font = ExtResource("3_8dymb")
+theme_override_font_sizes/normal_font_size = 24
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_y8f3f")
+
+[node name="TitleScreen" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -317.0
+offset_top = -91.0
+offset_right = 317.0
+offset_bottom = 91.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5_hl2da")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="TapLabel" type="RichTextLabel" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.314
+anchor_top = 0.823
+anchor_right = 0.706
+anchor_bottom = 0.879
+offset_left = -3.96001
+offset_top = 2.95999
+offset_right = -3.84003
+offset_bottom = 0.0799561
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0.501961, 0.501961, 0.501961, 1)
+theme_override_fonts/normal_font = ExtResource("3_8dymb")
+theme_override_font_sizes/normal_font_size = 20
+text = " [TAP ANYWHERE TO ENTER]"
