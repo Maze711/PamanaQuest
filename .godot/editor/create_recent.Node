@@ -1,14 +1,14 @@
+CollisionShape2D
+TileMapLayer
+Area2D
 TextureRect
 Control
 Node2D
 Label
 Panel
-TileMapLayer
 TileMap
 AnimationPlayer
 ColorRect
 CanvasLayer
 AnimatedSprite2D
-CollisionShape2D
 StaticBody2D
-Sprite2D

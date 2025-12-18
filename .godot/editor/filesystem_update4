@@ -1,3 +1,29 @@
-res://NPCInteraction/LolaNena/Opening.tscn
+res://Map/NenaHouse/arrow_hint.tscn
 res://Transition/fade_transition.gd
+res://Map/NenaHouse/tile_map.tscn
+res://Map/NenaHouse/sample.tscn
+res://Map/NenaHouse/eloy_precolonial.tscn
+res://Map/NenaHouse/eloy.tscn
+res://Map/NenaHouse/canvas_layer_2.tscn
+res://Map/NenaHouse/whole_world.tscn
+res://Map/NenaHouse/lola.tscn
+res://Map/NenaHouse/assets/NO AI, NO EXCEPTIONS.txt
+res://Map/NenaHouse/assets/whole_world.tscn
+res://Map/NenaHouse/assets/this is a Mana Seed demo.txt
+res://Map/NenaHouse/assets/tile_map.tscn
 res://NPCInteraction/DialogContainer.tscn
+res://NPCInteraction/dialog_container.gd
+res://Map/NenaHouse/lola.gd
+res://Map/NenaHouse/dialogue_box.gd
+res://Map/NenaHouse/eloy.gd
+res://Map/NenaHouse/area_2d.gd
+res://Map/NenaHouse/whole_world.gd
+res://Map/Tutorial/RiverSide.tscn
+res://Main.tscn
+res://Intro/scenes/intro/cutscene.gd
+res://main.gd
+res://Intro/scenes/intro/save_option.gd
+res://Intro/scenes/intro/save_option.tscn
+res://PlayerMovement/Player.tscn
+res://PlayerMovement/Player.gd
+res://Map/NenaHouse/interaction_area.gd

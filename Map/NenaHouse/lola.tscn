@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://c3c7wk8v6ym5a"]
+
+[ext_resource type="Script" path="res://Map/NenaHouse/lola.gd" id="1_ae5sj"]
+[ext_resource type="Texture2D" uid="uid://c3kevmeqgtsu0" path="res://Map/NenaHouse/assets/npcs/npc woman A v02.png" id="1_xrdef"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ae5sj"]
+atlas = ExtResource("1_xrdef")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yoyyv"]
+atlas = ExtResource("1_xrdef")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_edh3k"]
+atlas = ExtResource("1_xrdef")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8352t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ae5sj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yoyyv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_edh3k")
+}],
+"loop": true,
+"name": &"front_idle",
+"speed": 10.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xrdef"]
+radius = 5.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ae5sj"]
+size = Vector2(62, 56)
+
+[node name="lola" type="CharacterBody2D"]
+script = ExtResource("1_ae5sj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_8352t")
+animation = &"front_idle"
+frame_progress = 0.58171
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_xrdef")
+
+[node name="InteractionArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+position = Vector2(0, 7)
+shape = SubResource("RectangleShape2D_ae5sj")
+
+[connection signal="body_entered" from="InteractionArea" to="." method="_on_interaction_area_body_entered"]
+[connection signal="body_exited" from="InteractionArea" to="." method="_on_interaction_area_body_exited"]

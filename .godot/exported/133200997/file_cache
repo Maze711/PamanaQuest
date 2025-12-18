@@ -1,0 +1,17 @@
+res://Intro/scenes/intro/cutscene.tscn::9562413ed4819370d25479dced49b7f5::1766050466::res://.godot/exported/133200997/export-6ee9bbbae8caadb84a35a09a2ef6c748-cutscene.scn
+res://Intro/scenes/intro/main_menu.tscn::584bcf2bbe2daefd51b3d99cef5590a3::1766050466::res://.godot/exported/133200997/export-ba300001fa7019a8f01d64fc2680322e-main_menu.scn
+res://Intro/scenes/intro/save_option.tscn::ecfd9a3f66fcd0e2ba09cd838aa1ca7c::1766088236::res://.godot/exported/133200997/export-43b58c8e39cbde027709bce75ece6ad4-save_option.scn
+res://Map/NenaHouse/arrow_hint.tscn::1c06879a00857244010a7e6e7b545c73::1766077946::res://.godot/exported/133200997/export-69cfe232d74bf6b9864274121f777dbb-arrow_hint.scn
+res://Map/NenaHouse/canvas_layer_2.tscn::79c962ad7f25148b8b926f5af9181ba5::1766077946::res://.godot/exported/133200997/export-3a834f98b2695cabddb9af863f4c29d7-canvas_layer_2.scn
+res://Map/NenaHouse/eloy.tscn::aa8a0c72768e67c9e1d51b3c7401ff27::1766088236::res://.godot/exported/133200997/export-e6dd266ad3b96544c8ca894e5c7ca68e-eloy.scn
+res://Map/NenaHouse/eloy_precolonial.tscn::846485160549fa0f62a3a37cd2b60011::1766077946::res://.godot/exported/133200997/export-7e66721f8d12aea8f1d8947b8a04dfdf-eloy_precolonial.scn
+res://Map/NenaHouse/lola.tscn::a0f6bcb61fa4d65dd66971ee7b272bd9::1766089227::res://.godot/exported/133200997/export-fc01d77b77e553c2d456ddb40dbfac57-lola.scn
+res://Map/NenaHouse/sample.tscn::2a118c170bca8df64bb273f40066856a::1766077945::res://.godot/exported/133200997/export-001615ca8f26e9b4ea947b1ab159521c-sample.scn
+res://Map/NenaHouse/tile_map.tscn::6269ee7195497099abd235f9c575aec6::1766077945::res://.godot/exported/133200997/export-af62c42a9cb7f6d938fa217f60ef7021-tile_map.scn
+res://Map/NenaHouse/whole_world.tscn::57d366979ef8f3c0755c29ba671b1c0e::1766088234::res://.godot/exported/133200997/export-0997abeedfcf7878cad8b87a886e9d78-whole_world.scn
+res://Map/Tutorial/RiverSide.tscn::5a9c43ccfd4c17d7504125f4fbd7eaf6::1766088236::res://.godot/exported/133200997/export-11b4ba69b5e894e3d56f71099a79fb2d-RiverSide.scn
+res://NPCInteraction/LolaNena/Opening.tscn::65da364894da9bfacfc51ebc88c3de87::1766050466::res://.godot/exported/133200997/export-e72ffcfd7764903373b2415d1f73e52b-Opening.scn
+res://NPCInteraction/DialogContainer.tscn::3f20d9fac828012cdc5cce29055fe15e::1766081442::res://.godot/exported/133200997/export-227927292e8dce1cd935525a1272b1ba-DialogContainer.scn
+res://PlayerMovement/Player.tscn::f7cd1ecab69ca4c998f61fdd281c68d8::1766088236::res://.godot/exported/133200997/export-4a513f27e6ba7773f4609aa69982bc49-Player.scn
+res://Transition/FadeTransition.tscn::e22c404d6018345c1e5185168611ff85::1765716759::res://.godot/exported/133200997/export-c543ed7c53d1fdebf5758256a02be34d-FadeTransition.scn
+res://Main.tscn::3645f82ac46d20051f15931f4b61277b::1766088236::res://.godot/exported/133200997/export-bcb0d2eb5949c52b6a65bfe9de3e985b-Main.scn
