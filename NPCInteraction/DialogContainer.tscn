@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://doyx8abaw11s5"]
+[gd_scene load_steps=3 format=3 uid="uid://doyx8abaw11s5"]
+
+[ext_resource type="Script" path="res://NPCInteraction/dialog_container.gd" id="1_gshpk"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q0b6k"]
 bg_color = Color(0.698, 0.698, 0.698, 0.935)
@@ -17,6 +19,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_q0b6k")
+script = ExtResource("1_gshpk")
 metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="."]

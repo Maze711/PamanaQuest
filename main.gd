@@ -3,7 +3,7 @@ extends Node2D
 var cutscene_scene := preload("res://Intro/scenes/intro/cutscene.tscn")
 var menu_scene := preload("res://Intro/scenes/intro/main_menu.tscn")
 var save_scene := preload("res://Intro/scenes/intro/save_option.tscn")
-var map_scene  := preload("res://Map/Map.tscn")
+var map_scene  := preload("res://Map/NenaHouse/whole_world.tscn")
 
 var current_scene: Node
 var selected_slot := 1

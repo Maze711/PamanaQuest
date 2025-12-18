@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1765735687
+::res://::1766081314
 icon.svg::CompressedTexture2D::3554307567423161752::1765376019::1765376054::1::::<><>::
 main.gd::GDScript::-1::1765722330::0::1::::<>Node2D<>::
-Main.tscn::PackedScene::3493353920527070227::1765728356::0::1::::<><>::res://main.gd
+Main.tscn::PackedScene::3493353920527070227::1766050466::0::1::::<><>::res://main.gd
 ::res://font/::1765708084
 DeterminationMonoWebRegular-Z5oq.ttf::FontFile::2828781409648143897::1765708005::1765708084::1::::<><>::
 ::res://Intro/::1765708083
@@ -21,32 +21,129 @@ spr_story_7.png::CompressedTexture2D::2887985215735813517::1765708005::176570807
 spr_story_8.png::CompressedTexture2D::3119623907991723627::1765708005::1765708078::1::::<><>::
 spr_story_9.png::CompressedTexture2D::8349285448355228511::1765708005::1765708078::1::::<><>::
 ::res://Intro/scenes/::1765719925
-::res://Intro/scenes/intro/::1765731462
-cutscene.gd::GDScript::-1::1765723144::0::1::::<>Control<>::
-cutscene.tscn::PackedScene::5846925399429851022::1765728356::0::1::::<><>::res://Intro/scenes/intro/cutscene.gd<>uid://bgkju7x76e2c0::::res://font/DeterminationMonoWebRegular-Z5oq.ttf<>uid://tjuykpllngva::::res://Intro/sounds/msc_story/intro.ogg<>uid://bwkmhd04x3t3i::::res://Intro/images/logo/pamana_quest.png
+::res://Intro/scenes/intro/::1766076141
+cutscene.gd::GDScript::-1::1766076141::0::1::::<>Control<>::
+cutscene.tscn::PackedScene::5846925399429851022::1766050466::0::1::::<><>::res://Intro/scenes/intro/cutscene.gd<>uid://bgkju7x76e2c0::::res://font/DeterminationMonoWebRegular-Z5oq.ttf<>uid://tjuykpllngva::::res://Intro/sounds/msc_story/intro.ogg<>uid://bwkmhd04x3t3i::::res://Intro/images/logo/pamana_quest.png
 main_menu.gd::GDScript::-1::1765720423::0::1::::<>Control<>::
-main_menu.tscn::PackedScene::8257892314944642169::1765728356::0::1::::<><>::res://Intro/scenes/intro/main_menu.gd<>uid://bwkmhd04x3t3i::::res://Intro/images/logo/pamana_quest.png<>uid://bgkju7x76e2c0::::res://font/DeterminationMonoWebRegular-Z5oq.ttf
+main_menu.tscn::PackedScene::8257892314944642169::1766050466::0::1::::<><>::res://Intro/scenes/intro/main_menu.gd<>uid://bwkmhd04x3t3i::::res://Intro/images/logo/pamana_quest.png<>uid://bgkju7x76e2c0::::res://font/DeterminationMonoWebRegular-Z5oq.ttf
 save_option.gd::GDScript::-1::1765728720::0::1::::<>Control<>::
-save_option.tscn::PackedScene::3116223948672605369::1765731462::0::1::::<><>::res://Intro/scenes/intro/save_option.gd<>uid://bgkju7x76e2c0::::res://font/DeterminationMonoWebRegular-Z5oq.ttf
+save_option.tscn::PackedScene::3116223948672605369::1766050466::0::1::::<><>::res://Intro/scenes/intro/save_option.gd<>uid://bgkju7x76e2c0::::res://font/DeterminationMonoWebRegular-Z5oq.ttf
 ::res://Intro/sounds/::1765708005
 ::res://Intro/sounds/msc_story/::1765708069
 intro.ogg::AudioStreamOggVorbis::1353425176738775706::1765708005::1765708069::1::::<><>::
-::res://Map/::1765731462
-GrassBg.png::CompressedTexture2D::5069145574801402202::1765376019::1765376055::1::::<><>::
-House.png::CompressedTexture2D::4508757374322868529::1765376019::1765376055::1::::<><>::
-map.gd::GDScript::-1::1765720424::0::1::::<>Node2D<>::
-Map.tscn::PackedScene::865826646981550071::1765731462::0::1::::<><>::uid://cehsc7twvxjug::::res://Map/GrassBg.png<>res://Map/map.gd<>uid://b5icts7lyrpth::::res://Map/House.png<>uid://cce42penvj6xm::::res://PlayerMovement/Player.tscn
-::res://Map/Spawn/::1765728920
-::res://Map/Spawn/House/::1765731472
-home interiors, timber roof.png::CompressedTexture2D::7774636906321783312::1765729209::1765729210::1::::<><>::
-HouseInterior.tscn::PackedScene::2060958243285100352::1765731472::0::1::::<><>::uid://di1des4drcmxs::::res://Map/Spawn/House/home interiors, timber roof.png
-::res://NPCInteraction/::1765735646
-DialogContainer.tscn::PackedScene::8192906351716937818::1765735646::0::1::::<><>::
-::res://NPCInteraction/LolaNena/::1765735672
+::res://Map/::1766081353
+whole_world.tscn::PackedScene::-1::1766081353::0::1::::<><>::
+::res://Map/NenaHouse/::1766081335
+arrow_hint.tscn::PackedScene::8909569333774365974::1766077946::0::1::::<><>::uid://hcefnxnjc44k::::res://Map/NenaHouse/assets/icons & objects/pixellab-2d-arrow-pointing-down-colored-1762612057528.png
+canvas_layer_2.tscn::PackedScene::4765096745197476524::1766077946::0::1::::<><>::
+dialogue_box.gd::GDScript::-1::1766081013::0::1::::<>Control<>::
+eloy.gd::GDScript::-1::1766081013::0::1::::<>CharacterBody2D<>::
+eloy.tscn::PackedScene::2616762622038428744::1766077946::0::1::::<><>::res://Map/NenaHouse/eloy.gd<>uid://cy2r700nwl1kb::::res://Map/NenaHouse/assets/character/eloy/player.png
+eloy_precolonial.tscn::PackedScene::1476879071990164967::1766077946::0::1::::<><>::uid://cho8fsvp07sjx::::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/breathing-idle/south/frame_000.png<>uid://bo8mjmnt8cjeb::::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/breathing-idle/south/frame_001.png<>uid://dgu7i60s0tg55::::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/breathing-idle/south/frame_002.png<>uid://bhkm64x6rvpd::::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/breathing-idle/south/frame_003.png
+export_presets.cfg::TextFile::-1::1766077219::0::1::::<><>::
+lola.gd::GDScript::-1::1766081013::0::1::::<>CharacterBody2D<>::
+lola.tscn::PackedScene::6744240553202238652::1766081292::0::1::::<><>::res://Map/NenaHouse/lola.gd<>uid://c3kevmeqgtsu0::::res://Map/NenaHouse/assets/npcs/npc woman A v02.png
+sample.tscn::PackedScene::1760176975595359258::1766077945::0::1::::<><>::uid://b48oyv14ppfp2::::res://Map/NenaHouse/assets/tilesets/home interiors, timber roof.png
+tile_map.tscn::PackedScene::9217581144722171445::1766077945::0::1::::<><>::uid://b1yuscah71dbw::::res://Map/NenaHouse/assets/tilesets/seasonal sample (spring).png
+::res://Map/NenaHouse/assets/::1766077219
+Mana Seed readme.txt::TextFile::-1::1766077219::0::1::::<><>::
+NO AI, NO EXCEPTIONS.txt::TextFile::-1::1766077219::0::1::::<><>::
+this is a Mana Seed demo.txt::TextFile::-1::1766077219::0::1::::<><>::
+::res://Map/NenaHouse/assets/character/::1766077219
+::res://Map/NenaHouse/assets/character/eloy/::1766077235
+player.png::CompressedTexture2D::6514202500664966485::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/character/eloy_precolonial/::1766077219
+metadata.json::JSON::-1::1766077219::0::1::::<><>::
+::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/::1766077219
+::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/breathing-idle/::1766077219
+::res://Map/NenaHouse/assets/character/eloy_precolonial/animations/breathing-idle/south/::1766077235
+frame_000.png::CompressedTexture2D::5295078129717497409::1766077219::1766077235::1::::<><>::
+frame_001.png::CompressedTexture2D::3437934287837989101::1766077219::1766077235::1::::<><>::
+frame_002.png::CompressedTexture2D::7623641565804424666::1766077219::1766077235::1::::<><>::
+frame_003.png::CompressedTexture2D::85269761481290861::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/character/eloy_precolonial/rotations/::1766077235
+east.png::CompressedTexture2D::5389310995600750229::1766077219::1766077235::1::::<><>::
+north-east.png::CompressedTexture2D::2650274917804664576::1766077219::1766077235::1::::<><>::
+north-west.png::CompressedTexture2D::2512257115455908502::1766077219::1766077235::1::::<><>::
+north.png::CompressedTexture2D::4502774414838102986::1766077219::1766077235::1::::<><>::
+south-east.png::CompressedTexture2D::6874899419611153018::1766077219::1766077235::1::::<><>::
+south-west.png::CompressedTexture2D::7791022389396755137::1766077219::1766077235::1::::<><>::
+south.png::CompressedTexture2D::1628923464440368914::1766077219::1766077235::1::::<><>::
+west.png::CompressedTexture2D::7577200104479809517::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/fonts/::1766077235
+chat bubble guide.png::CompressedTexture2D::5027833337709872846::1766077219::1766077235::1::::<><>::
+chat bubble, variable 16x16.png::CompressedTexture2D::4268358883199820528::1766077219::1766077235::1::::<><>::
+GrapeSoda.ttf::FontFile::49048792924963189::1766077219::1766077235::1::::<><>::
+ManaSeedBody.ttf::FontFile::4533654094013548503::1766077219::1766077235::1::::<><>::
+ManaSeedTitle.ttf::FontFile::9093414952161363677::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/icons & objects/::1766077236
+breakable pots (gray).png::CompressedTexture2D::4621772953384670239::1766077219::1766077236::1::::<><>::
+cozy furnishings sampler.png::CompressedTexture2D::3775017454412821615::1766077219::1766077236::1::::<><>::
+pixellab-2d-arrow-pointing-down-colored-1762612057528.png::CompressedTexture2D::495703176851790680::1766077219::1766077236::1::::<><>::
+treasure chests.png::CompressedTexture2D::660807930283987842::1766077219::1766077236::1::::<><>::
+::res://Map/NenaHouse/assets/icons & objects/weapon sprites/::1766077236
+one_0108_v01.png::CompressedTexture2D::6072578681914003421::1766077219::1766077235::1::::<><>::
+one_0108_v02.png::CompressedTexture2D::6077965866346094752::1766077219::1766077235::1::::<><>::
+one_0108_v03.png::CompressedTexture2D::3685141425423997037::1766077219::1766077235::1::::<><>::
+one_0108_v04.png::CompressedTexture2D::850087074061076538::1766077219::1766077235::1::::<><>::
+one_0108_v05.png::CompressedTexture2D::2807707868711517522::1766077219::1766077235::1::::<><>::
+shd_0108_v01.png::CompressedTexture2D::5992634003402027145::1766077219::1766077235::1::::<><>::
+shd_0108_v02.png::CompressedTexture2D::6192432484881028489::1766077219::1766077236::1::::<><>::
+shd_0108_v03.png::CompressedTexture2D::8697508478946589357::1766077219::1766077235::1::::<><>::
+shd_0108_v04.png::CompressedTexture2D::2028725640360616766::1766077219::1766077236::1::::<><>::
+shd_0108_v05.png::CompressedTexture2D::9209814094109209917::1766077219::1766077236::1::::<><>::
+sword & shield effect sprites.png::CompressedTexture2D::6819306832647450713::1766077219::1766077236::1::::<><>::
+::res://Map/NenaHouse/assets/monsters/::1766077235
+slippery slime v01.png::CompressedTexture2D::7215900526332516777::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/npcs/::1766077235
+bonus NPC palette reference.png::CompressedTexture2D::5543943817111070757::1766077219::1766077235::1::::<><>::
+npc man A v00.png::CompressedTexture2D::5892751205035377023::1766077219::1766077235::1::::<><>::
+npc man A v01.png::CompressedTexture2D::1532855953327880653::1766077219::1766077235::1::::<><>::
+npc man A v02.png::CompressedTexture2D::8713531871774639462::1766077219::1766077235::1::::<><>::
+npc man A v03.png::CompressedTexture2D::2737478516460691144::1766077219::1766077235::1::::<><>::
+npc man A v04.png::CompressedTexture2D::609490131615969614::1766077219::1766077235::1::::<><>::
+npc woman A v00.png::CompressedTexture2D::1567752859958133875::1766077219::1766077235::1::::<><>::
+npc woman A v01.png::CompressedTexture2D::8654859745734695292::1766077219::1766077235::1::::<><>::
+npc woman A v02.png::CompressedTexture2D::6759053773629947777::1766077219::1766077235::1::::<><>::
+npc woman A v03.png::CompressedTexture2D::6048670246222504361::1766077219::1766077235::1::::<><>::
+npc woman A v04.png::CompressedTexture2D::4852451381633609617::1766077219::1766077235::1::::<><>::
+version 00.txt::TextFile::-1::1766077219::0::1::::<><>::
+::res://Map/NenaHouse/assets/portal/::1766077235
+portal opening.png::CompressedTexture2D::4882568930855372745::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/tilesets/::1766077235
+bonus shadows.png::CompressedTexture2D::8837434977046743699::1766077219::1766077235::1::::<><>::
+bonus wooden stairs (alt).png::CompressedTexture2D::5378402008513664534::1766077219::1766077235::1::::<><>::
+home interiors, timber roof.png::CompressedTexture2D::4490915656525996853::1766077219::1766077235::1::::<><>::
+seasonal sample (autumn).png::CompressedTexture2D::3273220627767913981::1766077219::1766077235::1::::<><>::
+seasonal sample (spring).png::CompressedTexture2D::4262122273933531508::1766077219::1766077235::1::::<><>::
+seasonal sample (summer).png::CompressedTexture2D::3519210159006038987::1766077219::1766077235::1::::<><>::
+seasonal sample (winter).png::CompressedTexture2D::1030127190233473974::1766077219::1766077235::1::::<><>::
+simplified full timber.png::CompressedTexture2D::1711569619877573862::1766077219::1766077235::1::::<><>::
+::res://Map/NenaHouse/assets/tilesets/seasonal water animations/::1766077235
+autumn water sparkles B 16x16.png::CompressedTexture2D::6410664201877362308::1766077219::1766077235::1::::<><>::
+autumn waterfall B 16x16.png::CompressedTexture2D::8063464928282251091::1766077219::1766077235::1::::<><>::
+spring water sparkles B.png::CompressedTexture2D::966142089621086160::1766077219::1766077235::1::::<><>::
+spring waterfall B.png::CompressedTexture2D::3863776184699538650::1766077219::1766077235::1::::<><>::
+summer water sparkles B 16x16.png::CompressedTexture2D::4690365080249055329::1766077219::1766077235::1::::<><>::
+summer waterfall B 16x16.png::CompressedTexture2D::1396692951525267034::1766077219::1766077235::1::::<><>::
+winter water sparkles B 16x16.png::CompressedTexture2D::2056792025364199032::1766077219::1766077235::1::::<><>::
+winter waterfall B 16x16.png::CompressedTexture2D::1267848095738433315::1766077219::1766077235::1::::<><>::
+::res://Map/Tutorial/::1766076519
+RiverSide.tscn::PackedScene::5712692571393986429::1766076511::0::1::::<><>::uid://uho5og2y7htr::::res://Map/Tutorial/Tile/Map_tiles.png<>uid://c6xcq30g88a6i::::res://Map/Tutorial/Tile/tileset-1.png
+::res://Map/Tutorial/Land/::1766076485
+::res://Map/Tutorial/River/::1766076519
+::res://Map/Tutorial/Tile/::1766076511
+Map_tiles.png::CompressedTexture2D::1419131874610766995::1766076506::1766076511::1::::<><>::
+PathAndObjects.png::CompressedTexture2D::5260582446250518942::1766076506::1766076511::1::::<><>::
+tileset-1.png::CompressedTexture2D::6996327724788516286::1766076506::1766076511::1::::<><>::
+::res://NPCInteraction/::1766081293
+DialogContainer.tscn::PackedScene::8192906351716937818::1766081293::0::1::::<><>::res://NPCInteraction/dialog_container.gd
+dialog_container.gd::GDScript::-1::1766081013::0::1::::<>Panel<>::
+::res://NPCInteraction/LolaNena/::1766050466
 Lola.jpg::CompressedTexture2D::8700212946020937893::1765731907::1765731908::1::::<><>::
 Main.jpg::CompressedTexture2D::4519657476797636684::1765731907::1765731908::1::::<><>::
 opening.gd::GDScript::-1::1765735576::0::1::::<>Control<>::
-Opening.tscn::PackedScene::3342519429641769335::1765735672::0::1::::<><>::res://NPCInteraction/LolaNena/opening.gd<>uid://doyx8abaw11s5::::res://NPCInteraction/DialogContainer.tscn
+Opening.tscn::PackedScene::3342519429641769335::1766050466::0::1::::<><>::res://NPCInteraction/LolaNena/opening.gd<>uid://doyx8abaw11s5::::res://NPCInteraction/DialogContainer.tscn<>uid://b5nmdlwcyj0oe::::res://NPCInteraction/LolaNena/Main.jpg<>uid://dv7pia63g4qr2::::res://NPCInteraction/LolaNena/Lola.jpg
 ::res://PlayerMovement/::1765720424
 Player.gd::GDScript::-1::1765720424::0::1::::<>CharacterBody2D<>::
 Player.tscn::PackedScene::4923286369552749390::1765376019::0::1::::<><>::res://PlayerMovement/Player.gd<>uid://byfkro3li2p25::::res://PlayerMovement/move_left/Sprite-0004.png<>uid://dxipfx1dlnfa7::::res://PlayerMovement/move_back/Sprite-0004.png<>uid://b0ko6t2bvpc36::::res://PlayerMovement/move_front/Sprite-0004.png<>uid://dqpu77lr7xrst::::res://PlayerMovement/move_back/Sprite-0005.png<>uid://bks418r6n6cb3::::res://PlayerMovement/move_left/Sprite-0005.png<>uid://bvwmasflgbipn::::res://PlayerMovement/move_front/Sprite-0005.png<>uid://bbjdbh20pp6hr::::res://PlayerMovement/move_front/Sprite-0006.png<>uid://yuanxwfs7pot::::res://PlayerMovement/move_right/Sprite-0004.png<>uid://d35nvjqeuair3::::res://PlayerMovement/move_back/Sprite-0006.png<>uid://dmqwf35ft8xse::::res://PlayerMovement/move_right/Sprite-0005.png<>uid://cruti5dgflnry::::res://PlayerMovement/move_back/Sprite-0007.png<>uid://0jqwwscc13cp::::res://PlayerMovement/move_right/Sprite-0006.png<>uid://dtan4glypew36::::res://PlayerMovement/move_back/Sprite-0008.png<>uid://d0doo3ukw3pbs::::res://PlayerMovement/move_back/Sprite-0009.png
@@ -68,6 +165,6 @@ Sprite-0005.png::CompressedTexture2D::3127276904037576750::1765376019::176537605
 Sprite-0004.png::CompressedTexture2D::1725844259989993579::1765376019::1765376054::1::::<><>::
 Sprite-0005.png::CompressedTexture2D::8035904438862863132::1765376019::1765376054::1::::<><>::
 Sprite-0006.png::CompressedTexture2D::1774312433502299251::1765376019::1765376054::1::::<><>::
-::res://Transition/::1765735433
+::res://Transition/::1766076708
 FadeTransition.tscn::PackedScene::8012179778275917135::1765716759::0::1::::<><>::res://Transition/fade_transition.gd
-fade_transition.gd::GDScript::-1::1765735433::0::1::::<>CanvasLayer<>::
+fade_transition.gd::GDScript::-1::1766076708::0::1::::<>CanvasLayer<>::

@@ -17,4 +17,4 @@ func _on_back_pressed() -> void:
 
 
 func _on_save_1_pressed() -> void:
-	get_tree().change_scene_to_file("res://Map/Map.tscn")
+	get_tree().change_scene_to_file("res://Map/NenaHouse/whole_world.tscn")
